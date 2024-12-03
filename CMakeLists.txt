@@ -10,6 +10,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # 添加子目录
 add_subdirectory(src)
+add_subdirectory(test)
 
 # 添加主程序
 add_executable(main main.cpp)
